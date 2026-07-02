@@ -53,8 +53,8 @@ export default function SignalTrace({ trace }) {
     ...nodes.filter((n) => n.below).map((n) => n.labelLines.length)
   );
 
-  const topPad = 28 + Math.max(maxAboveLines, 1) * lineH + 8; // room for above labels
-  const botPad = 28 + Math.max(maxBelowLines, 1) * lineH + 8; // room for below labels
+  const topPad = 48 + Math.max(maxAboveLines, 1) * lineH + 12; // room for above labels
+  const botPad = 32 + Math.max(maxBelowLines, 1) * lineH + 12; // room for below labels
   const midY = topPad;
   const height = topPad + botPad;
 

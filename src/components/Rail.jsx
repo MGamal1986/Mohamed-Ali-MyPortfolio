@@ -14,11 +14,6 @@ export default function Rail({ name, sections, activeId }) {
           ))}
         </ul>
       </div>
-      <div className="rail-foot">
-        Built as a single-page React app.
-        <br />
-        Edit <code>src/data.js</code> to update content.
-      </div>
     </nav>
   );
 }
